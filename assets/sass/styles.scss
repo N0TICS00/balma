@@ -1,0 +1,101 @@
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3{
+    font-weight: 700;
+}
+h4, h5, h6, p{
+    font-weight: 300;
+}
+#initial{
+    height: 800px;
+    background-image: url('../img/turin.jpg') ;
+    background-position: 0 40%;
+    text-align: center;
+    
+    h1{
+        margin-top: 60%;
+        color:white;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row !important;
+        list-style-type: none;
+        justify-content: space-around;
+        .nav-item{
+            visibility: hidden;
+        }
+        .nav-brand{
+            font-weight: 700;
+            
+        }
+    }
+    
+}
+#story , #works{
+    margin-top: 20%
+}
+#story{
+
+    text-align: center;
+    padding: 0 50px;
+    img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+#works{
+    h1{
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        .board{
+            width: 400px;
+            height: 450px;
+            background-color: whitesmoke;
+            margin-top: 50px ;
+           
+            .board-img{
+                img{
+                    width: 400px;
+                    height: 200px
+                }
+            }
+            .board-body{
+                h4{
+                    text-align: center;
+                }
+                ul{
+                    list-style-type: none;
+                }
+                button{
+                    text-align: center;
+                    margin: 0 8%
+                }
+                margin-top:20px
+
+            }
+        }
+    }
+}
+// PC
+@media only screen and (min-width:1441px){
+    .nav-item{
+        visibility:initial !important;
+    }
+}
+// LAPTOP
+@media only screen and (min-width: 1025px) and (max-width: 1439px){
+    .nav-item{
+        visibility:initial !important;
+    }
+}
+//TABLET
+@media only screen and (min-width: 441px) and (max-width: 1024px){}
