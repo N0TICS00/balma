@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <!--MAPS-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section id="initial">
+        <ul class="navbar">
+            <li class="nav-item">Storia</li>
+            <li class="nav-item">Realizzazioni</li>
+            <li class="nav-brand">🏡 Balma Building 🏡</li>
+            <li class="nav-item">Dove Siamo</li>
+            <li class="nav-item">Contattaci</li>
+        </ul>
+        <h1>Nel settore dell'edilizia da più di 30 anni</h1>
+        <br>
+        <button type="button" class="btn btn-secondary" href="#story">Scopri di più sulla nostra azienda</button>
+    </section>
+    <section id="story">
+        <h1>Come nasce la nostra azienda?</h1>
+        <img src="assets/img/interno1.jpg" >
+        <p>L’azienda è nata nel settembre del 1990 dal desiderio dei due fondatori, Valter Balma e Claudia Tavella, di mettere personalmente in pratica, realizzare e gestire autonomamente le idee progettuali maturate nel campo dell’edilizia residenziale ed industriale attraverso le loro esperienze professionali di geometra ed architetto. <br>
+        Ad oggi lo staff aziendale, composto da otto addetti in cantiere, tre impiegati tecnici ed un’impiegata amministrativa, con i titolari è in grado di supportare nella quasi totalità il processo edilizio dalla progettazione alla realizzazione chiavi in mano.</p>
+    </section>
+    <section id="works">
+        <h1>I nostri lavori</h1>
+        <div class="cards">
+            <div class="board">
+                <div class="board-img">
+                    <img src="assets/img/capannone.jpg" alt="Shed Image">
+                </div>
+                <div class="board-body">
+                    <h4>Capannone Industriale -  
+                        Almese </h4>
+                    <ul>
+                        <li>Committente: Balma Building SRL</li>
+                        <li>Progettista: ARCH. Claudia Tavella</li>
+                        <li>Anno di Realizzazione: 2009</li>
+                    </ul>
+                    <button type="button" class="btn btn-secondary" >Visualizza i dettagli del lavoro</button>
+                </div>
+            </div>
+            <div class="board">
+                <div class="board-img">
+                    <img src="assets/img/cimitero.jpg" alt="Graveyard Image">
+                    
+                </div>
+                <div class="board-body">
+                    <h4>Cimitero Comunale -  
+                        Collegno </h4>
+                        <ul>
+                            <li>Committente: Comune di Collegno</li>
+                            <li>Progettista: Lavori Pubblici del Comune di Collegno</li>
+                            <li>Anno di Realizzazione: 2006-2007</li>
+                        </ul>
+                        <button type="button" class="btn btn-secondary" >Visualizza i dettagli del lavoro</button>
+                </div>
+            </div>
+            <div class="board">
+                <div class="board-img">
+                    <img src="assets/img/parcheggio.jpg" alt="Parking Image">
+                </div>
+                <div class="board-body">
+                    <h4>Autorimesse e Parcheggio Pubblico -         Avigliana </h4>
+                    <ul>
+                        <li>Committente: DOTT. Renato Bonetto</li>
+                        <li>Progettista: ARCH. Vittorio Balma</li>
+                        <li>Anno di Realizzazione: 2006</li>
+                    </ul>
+                    <button type="button" class="btn btn-secondary" >Visualizza i dettagli del lavoro</button>
+                </div>
+            </div>
+        </div>
+        <div class="button"><button class="btn btn-secondary">Visualizza gli altri lavori </button></div>
+    </section>
+    <section id="where">
+        <h1>Dove ci troviamo?</h1>
+        <div id="map">
+
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <div id="form">
+        <form class="form">
+            <h3>🏡 Balma Building 🏡</h3>
+            <div class="name">
+                <i class="fa-solid fa-user fa-xl icon"></i>
+                <input type="text" name="name" placeholder="Nome e Cognome">
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope fa-xl icon"></i>
+                <input type="email" name="email" placeholder="E-mail" id="#email">
+                
+            </div>
+            <div class="message">
+                <textarea name="message" placeholder="Inserisci il tuo messaggio" cols="50" rows="10"></textarea>
+            </div>
+            <button type="button" class="btn btn-secondary" >Invia</button>
+        </form>
+    </div>
+    </section>
+    <section id="footer">
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(178, 60, 253,0.7)" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(178, 60, 253,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(178, 60, 253,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#b23cfd" />
+                </g>
+            </svg>
+        </div>
+    </section>
+    <section id="copy">
+        <h4>© 2022 Copyright: Paolo D'Agostino</h4>
+    </section>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKYtDUNB63C_LeeCPpLrGxJn9TLR9k41I&callback=initMap&v=weekly"
+    defer
+  ></script>
+    
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
